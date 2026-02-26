@@ -1,7 +1,11 @@
-# question_5.cpp
+#include <iostream>
+using namespace std;
 
-"""
-Write a function that takes two integers and returns their sum.
-"""
+int add(int a, int b) {
+    return a + b;
+}
 
-# Start coding below...
+int main() {
+    cout << add(5, 3);
+    return 0;
+}

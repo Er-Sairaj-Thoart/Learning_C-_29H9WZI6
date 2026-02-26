@@ -1,7 +1,14 @@
-# question_4.cpp
+#include <iostream>
+using namespace std;
 
-"""
-Write a function that checks whether a number is even or odd.
-"""
+void checkEvenOdd(int n) {
+    if (n % 2 == 0)
+        cout << "Even";
+    else
+        cout << "Odd";
+}
 
-# Start coding below...
+int main() {
+    checkEvenOdd(7);
+    return 0;
+}

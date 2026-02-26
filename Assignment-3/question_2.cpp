@@ -1,7 +1,11 @@
-# question_2.cpp
+#include <iostream>
+using namespace std;
 
-"""
-Write a function that returns the greater of two numbers.
-"""
+int maximum(int a, int b) {
+    return (a > b) ? a : b;
+}
 
-# Start coding below...
+int main() {
+    cout << maximum(10, 20);
+    return 0;
+}

@@ -1,7 +1,11 @@
-# question_3.cpp
+#include <iostream>
+using namespace std;
 
-"""
-Write a function that returns the square of a number.
-"""
+int square(int n) {
+    return n * n;
+}
 
-# Start coding below...
+int main() {
+    cout << square(4);
+    return 0;
+}

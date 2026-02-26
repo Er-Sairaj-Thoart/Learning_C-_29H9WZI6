@@ -1,7 +1,12 @@
-# question_1.cpp
+#include <iostream>
+using namespace std;
 
-"""
-Q: Write a function that prints "Hello" N times.
-"""
+void printHello(int n) {
+    for(int i = 0; i < n; i++)
+        cout << "Hello\n";
+}
 
-# Start coding below...
+int main() {
+    printHello(3);
+    return 0;
+}
